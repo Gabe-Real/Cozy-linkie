@@ -43,6 +43,8 @@ dependencies {
 	// modImplementation(libs.bundles.qfapi) // If you wish to use the deprecated Fabric API modules
 
 	modImplementation(libs.qkl)
+	implementation("org.java-websocket:Java-WebSocket:1.5.3")
+	implementation("org.json:json:20231013")
 }
 
 tasks {
